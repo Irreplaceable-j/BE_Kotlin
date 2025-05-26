@@ -47,4 +47,5 @@ fun <E, T> map(list:List<E>, callback:(e:E) -> T): MutableList<T>{
     val res = mutableListOf<T>()
     list.forEach { res.addLast(callback(it)) }
     return res
+
 }

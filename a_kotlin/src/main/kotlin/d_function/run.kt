@@ -4,4 +4,5 @@ fun main() {
     publicFnc()
     internalFnc()
 //    privateFnc()
+
 }
