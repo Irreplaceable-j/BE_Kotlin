@@ -27,5 +27,4 @@ fun main() {
     val result2 = if(grade == 'A') "scholarship" else if(grade == 'F') "Fail" else "Pass"
     println(result)
 
-
 }
